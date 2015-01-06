@@ -79,15 +79,24 @@ li {
 .box { 
 	text-align: center; 
 	background-color: #87714F;
-	width: 22em;
+	width: 19em;
 	color: #fff;
+	margin: 0;
+	
 }
 
 
 .icon { 
-	width: 4.5em; 
+	width: 4em; 
 	margin-bottom: .5em;
 }
+
+.panel { 
+	border-image: url("../images/panel-border.png") 20 20 20 20 stretch stretch; 
+	border-width: 20px 20px 20px 20px; 
+}
+
+
 
 @media only screen and (min-width: 30em) { 
 
