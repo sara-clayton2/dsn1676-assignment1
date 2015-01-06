@@ -32,13 +32,26 @@ body {
 
 .title { 
 	display: inline-block;
-	background color: #fff;
 }
 
 .logo {
 	margin: 0 0.2em 0 0; 
 	width: 1.2em; 
 	vertical-align: middle;
-	
-	
+}
+
+.img-border { 
+	border: 1px solid #000;	
+}
+
+.box { 
+	text-align: center; 
+	background-color: #87714F;
+	width: 22em;
+}
+
+
+.icon { 
+	width: 3.5em; 
+	margin-bottom: 2em;
 }
