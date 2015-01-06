@@ -20,6 +20,12 @@ html {
   box-sizing: inherit;
 }
 
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+
 @media only screen and (min-width: 60em) { 
 	html { 
 		font-size: 110%; 
@@ -79,7 +85,6 @@ li {
 .box { 
 	text-align: center; 
 	background-color: #87714F;
-	width: 19em;
 	color: #fff;
 	margin: 0;
 }
