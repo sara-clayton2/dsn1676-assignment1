@@ -5,33 +5,57 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-
+  background-color: #E7E5D9;
+	
+	
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-	
-  background-color: #E7E5D9; 
-  color: #fff; 	
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+@media only screen and (min-width: 60em) { 
+	html { 
+		font-size: 110%; 
+	}
+} 
+
+
+@media only screen and (min-width: 90em) { 
+	html { 
+		font-size: 120%;
+	
+	}
+} 
+
+@media only screen and (min-width: 120em) { 
+	html { 
+		font-size: 130%;
+	}
+}
+
+
 body {
   margin: 0;
   padding: 0;
 }
 
+
 .masthead { 
-	background: transparent url("../img/masthead-b.png") repeat left center; 
+	background: transparent url("../images/masthead-b.png") repeat left center; 
 	text-align: center;	
 }
 
 .title { 
 	display: inline-block;
+	background-color: #E7E5D9;
+	color: #fff;
 }
 
 .logo {
@@ -44,14 +68,47 @@ body {
 	border: 1px solid #000;	
 }
 
+li { 
+	text-align: left;
+}
+
+.following { 
+	text-align: left;
+}
+
 .box { 
 	text-align: center; 
 	background-color: #87714F;
 	width: 22em;
+	color: #fff;
 }
 
 
 .icon { 
-	width: 3.5em; 
-	margin-bottom: 2em;
+	width: 4.5em; 
+	margin-bottom: .5em;
+}
+
+@media only screen and (min-width: 30em) { 
+
+}
+
+ 
+@media only screen and (min-width: 40em) {
+	
+	
+	
+	
+} 
+	
+	
+	
+	
+ 
+@media only screen and (min-width: 60em) { 
+
+	
+
+	
+	
 }
